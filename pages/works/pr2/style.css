@@ -1,0 +1,30 @@
+.soder{
+    color: rgb(211, 167, 21);
+    font-weight: 1000;
+    background-color: rgb(196, 109, 43);
+    width: 25%;
+}
+.tabl {
+    background-color: rgb(110, 81, 58);
+    width: 25%;
+    padding-left: 20px;
+
+}
+.tabl, .soder {
+    background-color: rgb(105, 76, 55);
+    width: 25%;
+}
+.go-top {
+    background-color: aqua;
+    position: fixed;
+    padding: 3px 4px;
+    right: 10px ;
+    bottom: 10px;
+}
+.text-inter{
+    background-color: #aaaaaa;
+}
+.sisi, .sisi1, .isi11{
+    background-color: rgb(204, 226, 245)
+    
+}
