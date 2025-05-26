@@ -1,0 +1,58 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #5a025a; /* Темный фон */
+    color: #ffffff; /* Белый текст для контраста */
+}
+
+header {
+    background-color: #ffcf87;
+    text-align: center;
+    margin-top: auto
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.content {
+    display: flex;
+}
+footer {
+    background-color: #ffcf87;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+    
+}
+footer a.go-top {
+    color: #00bcd4;
+    
+}
+
+footer a.go-top:hover {
+    text-decoration: underline;
+}
+
+article, section {
+    margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4 {
+    color: #15abbe; 
+}
+h1 {
+    margin-top: 0;
+}
+div img {
+    width: 250px;
+    height: auto;
+    max-width: 250px; 
+   
+  
+}

@@ -1,0 +1,132 @@
+.line li {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px;
+    
+    background-color: rgb(210, 35, 114);
+}
+.links a {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(26, 13, 212);
+    color: rgb(255, 252, 252);
+    width: 150px;
+    height: auto;
+    ;
+}
+.blocks{
+    margin: 40px;
+}
+.blocks div {
+    display: inline;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(226, 149, 48);
+}
+.links-markers a{
+    display: list-item;
+    background-color: #141414;
+    color: aliceblue;
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+}
+.image {
+    background: url('img/weather-sun.jpg');
+    width: 98px;
+    height: 98px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px  dashed red;
+    
+}
+.post1 {
+    background-color: brown;
+    font-size: larger;
+    color: aliceblue;
+} 
+.post2 {
+    background-color: brown;
+    font-size: larger;
+    color: aliceblue;
+} 
+.post2 .image {
+    float: right;
+    width: 110px;
+    height: 100px;
+    background-color: brown;
+   
+}
+.post1 .image {
+    float: left; 
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+}
+.photo1 {
+    background-image: url('img/weather-sun.jpg');
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+.photo2 {
+    background-image: url('img/weather-snow.jpg');
+    width: 110px;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+.photo3 {
+    background-image: url('img/weather-blizzard.jpg');
+    width: 110px;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+.img2{
+    float: right;
+    margin: 0;
+}
+.pogoda {
+    
+    margin:30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger; 
+    color: aliceblue;
+}
+.tr1 {
+    background-color: rgb(95, 84, 251);
+    margin: 10px;
+}
+td {
+    padding: 3px;
+    margin: 5px;
+    border: 2px solid white;
+}
+tr {
+    width: 120px;
+}
+header {
+    text-align: center;
+    color: #0c0b0b;
+    background-color: antiquewhite;
+    padding: px;
+}
+.table-weather {
+    width: 360px;
+    margin: 0 auto;
+}
+.foot {
+    background-color: #ffcf87;
+    color: #b11a1a;
+    padding: 1rem;
+    color: rgb(26, 26, 26);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.hdl {
+   text-align: center;
+   color: black;
+}

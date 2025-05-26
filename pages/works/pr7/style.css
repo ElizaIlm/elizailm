@@ -1,0 +1,121 @@
+.basl {
+    background: fixed;
+    background-color: rgb(66, 63, 63);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f3b2b2; /* Темный фон */
+    color: #ffffff; /* Белый текст для контраста */
+}
+h1, h2, h3, h4 {
+    color: #574949; 
+    margin: 0;
+
+}
+nav {
+    margin-top: 1rem;
+    color: rgb(12, 113, 202);
+}
+header {
+    background-color: #f18adb;
+    text-align: center;
+}
+/* Стили для классов */
+.color-example {
+    color: rgb(216, 0, 0);
+}
+
+.font-size-example {
+    font-size: 24px;
+}
+
+.font-family-example {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text-align-example {
+    text-align: center;
+}
+
+.text_indent {
+    text-indent: 20px;
+}
+
+.line-height-example {
+    line-height: 2;
+}
+
+.text-transform-example {
+    text-transform: uppercase;
+}
+
+.text-decoration-example {
+    text-decoration: underline;
+}
+
+.font-weight-example {
+    font-weight: bold;
+}
+
+.font-style-example {
+    font-style: italic;
+}
+
+/* Стили для идентификаторов */
+#text-shadow-example {
+    text-shadow: 2px 2px 5px rgba(143, 15, 15, 0.5);
+}
+
+#word-spacing {
+    word-spacing: 20px;
+}
+
+#white-space-example {
+    white-space: nowrap;
+    overflow: hidden;
+   
+}
+
+#text-indent-example {
+    text-indent: 50px;
+}
+
+#direction-example {
+    direction: rtl;
+}
+
+#text-overflow-example {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+    
+}
+
+#hyphens-example {
+    hyphens: auto;
+}
+
+#column-count-example {
+    column-count: 3;
+}
+
+#column-gap-example {
+    column-count: 3;
+   
+}
+
+#column-rule-example {
+    column-count: 3;
+    column-gap: 20px;
+}
+
+#custom-style-example {
+    font-size: 18px;
+    color: rgb(223, 149, 36);
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
