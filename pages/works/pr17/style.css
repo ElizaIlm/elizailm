@@ -1,0 +1,156 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+    
+}
+main,header,footer{
+    width:480px;
+
+    margin: 0 auto;
+}
+main {
+    width: 480px;
+    margin: 0 auto;
+}
+.head_1{
+    background-color:#0281e4;
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+    text-align: center;
+    
+}
+.hrr {
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    
+}
+.burger{
+    background-repeat:no-repeat;
+    background-image:url(./img/burg.png);
+    height: 90px;
+    background-size: cover;
+    width:65px;
+    border-left:5px solid grey;
+    margin-right:10px;
+    padding-left:2px;
+}
+.email{
+    padding:25px 0;
+    margin-left:200px;
+}
+.parent_massage{
+    margin:30px 30px 50px 45px;
+    display:flex;
+    justify-content:space-between
+}
+.ava{
+    background-image:url(./img/chel.png); 
+    width:70px;
+    height:70px;
+    margin:0 15px 0 0;
+    background-size: cover;
+}
+.image{
+    background-repeat:no-repeat
+}
+.date_ni{
+    font-size:16px;
+    color:#b7b7b7;
+    margin-top:5px
+}
+.name_per{
+    font-size:26px;
+    font-weight:200;
+    color:#4b4b4b
+}
+.time{
+    color:#92bee1;
+    font-weight:100
+}
+.massage{
+    width:330px;
+    border-left:10px #7bdd6c solid;
+    margin-left:70px;
+    padding-left:25px;
+    line-height:1.7;
+    margin-bottom:70px
+}
+.screp{
+    background-image:url(./img/screpka.png); 
+    width: 27px;
+    height:36px;
+    background-repeat:no-repeat;
+    margin-right:3px;
+    background-size: cover;
+   
+}
+.attach{
+    display:flex;
+    color:#555;
+    padding-top: 10px;
+}
+.pad_bot{
+    padding-bottom:20px;
+    color:#8a8a8a
+}
+.sub_parent_prilozeine{
+    display:flex;
+    color:#8a8a8a;
+    margin-bottom:10px
+}
+.ic_photo{
+    background-image:url(./img/foto.png);
+    width:40px;
+    height:40px;
+    background-size: cover;
+}
+.pril_txt{
+    padding-left:10px;
+    padding-top:8px
+}
+.parent_prilozeine{
+    margin-top:20px;
+    margin-left:40px}
+footer{
+    display:flex
+}
+.footer_parent_1{
+    color:#fff;
+    background-color:#585656;
+    width:33%;
+    display:flex;
+    justify-content:center;
+    padding:25px 0;
+    align-items:center}
+.footer_parent_1:hover{
+    background-color:#3c3d3c}
+.ic_img{
+    height:40px;
+    width:40px;
+    background-repeat:no-repeat}
+.Replay_ic{
+    background-image:url(./img/replay.svg);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+.Forword_ic{
+    background-image:url(./img/errow.svg);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+.Delete_ic{
+    background-image:url(./img/trash.svg);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    
+}
+.txt_footer{
+    font-size:200%
+}

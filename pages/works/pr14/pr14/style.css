@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin-top: 100px;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* Запуск анимации */
+    animation: scaleBox 4s ease-in-out;
+  }
+  
+  @keyframes scaleBox {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

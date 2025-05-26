@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>SVG Мишень</title>
+    <style>
+        svg {
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+<svg height="300" width="300">
+    <!-- Небо -->
+    <rect width="300" height="200" x="0" y="0" fill="skyblue" />
+    <!-- Земля -->
+    <rect width="300" height="100" x="0" y="200" fill="lightgreen" />
+	 <!-- Подставки мишени -->
+	 <rect class="" width="12" height="40" x="100" y="230" rx="4" fill="black" />
+	 <rect class="" width="12" height="40" x="190" y="230" rx="4" fill="black" />
+    <!-- Мишень -->
+    <circle cx="150" cy="150" r="100" fill="white" stroke="crimson " stroke-width="20" />
+    <circle cx="150" cy="150" r="75" fill="crimson " stroke="white" stroke-width="10" />
+    <circle cx="150" cy="150" r="50" fill="white" stroke="crimson " stroke-width="10" />
+    <circle cx="150" cy="150" r="25" fill="crimson " />
+</svg>
+</body>
+</html>

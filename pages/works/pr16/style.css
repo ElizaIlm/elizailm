@@ -1,0 +1,380 @@
+* {
+   margin: 0;
+    padding: 0;
+    font-family: base;
+}
+@font-face {
+    font-family: 'base';
+    src: url(fonts/Raleway.ttf);
+}
+.wrapper {
+    width: 1110px;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.container{
+    background-color: #479ee1;
+}
+.fontbg{
+    background: url(./img/phone.png);
+    width: 480px;
+    height: 700px;
+    right: 380px;
+    top: 260px;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main {
+    z-index: 100;
+    background-color: white;
+}
+.item1 {
+   display: flex;
+   
+}
+.item2 {
+    flex-wrap: wrap;
+    text-align: center;
+ }
+ .web5{
+    text-align: center;
+    
+ }
+.left-cont {
+    text-align: left;
+    margin-left: 15px;
+    width: 200px;
+}
+.navv {
+    display: flex;
+    justify-content: space-between;
+    
+    border-bottom: 1px white solid;
+    padding-bottom: 35px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 51px;
+}
+.nav {
+    display: flex;
+    font-size: 15px;
+    text-transform: uppercase;
+    gap: 24px;
+
+}
+
+ul{
+    display: flex;
+    gap: 20px; 
+    height: 55px;
+    align-items: center;
+    
+
+}
+a {
+    text-decoration: none;
+
+  
+}
+.naaa{
+    color: aliceblue;
+}
+li {
+    list-style-type: none;
+    
+   
+
+}
+.photo1 {
+    background: url(./img/logo\ backup.png);
+    width: 168px;
+    height: 51px;
+    background-size: 10%;
+    display: inline-block; /* или block */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.but {
+    width: 110px;
+    height: 55px;
+    border-radius: 13px;
+    background-color: #195888;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+}
+.headphon{
+    background:url(./img/Headphones.png) ;
+    width: 600px;
+    height: 400px;
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 100px;
+    left: -400px;
+    
+}
+.pencil {
+    background:url(./img/pencil.png) ;
+    width: 183px;
+    height: 219px;
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 600px;
+    left: 0px;
+}
+
+.earphones{
+    background: url(./img/Earphones.png);
+    width: 200px;
+    height: 400px;
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 400px;
+    right: 0;
+}
+.text {
+    text-transform: uppercase;
+}
+.logo_google{
+    background: url(./img/google_play.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+.item {
+    border-radius: 10px;
+    width: 40px;
+    height: 30px;
+}
+
+.photo3 {
+    background: url(./img/photosec.png);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.photo4 {
+    background: url(./img/Layer\ 73.png);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.photo5 {
+    background: url(./img/Layer\ 74.png);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.text1 {
+    width: 233px;
+    margin-top: 15px;
+    color: #7c7c7c;
+    line-height: 20px;
+    
+}
+
+.sevices {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 78px;
+    
+}
+header {
+    padding-top: 87px;
+}
+.title {
+    text-align: center;
+}
+.title3 {
+    text-align: center;
+}
+.title4 {
+    text-align: center;
+    margin-top: 308px;
+    text-transform: uppercase;
+}
+.container2{
+    margin-top:170px;
+}
+.subscribe {
+    margin-top: 40px;
+}
+.col {
+    color: #7c7c7c;
+}
+.pht {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.photo6 {
+    background-image: url(./img/icon2.png);
+    
+    margin-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.photo7 {
+    background-image: url(./img/Browser.png);
+   
+    margin-top: 20px;
+}
+
+.photo8 {
+    background-image: url(./img/Game.png);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.photo9 {
+    background-image: url(./img/ResizeDown.png);
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.photo10 {
+    background-image: url(./img/Cart.png);
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.photo11 {
+    background-image: url(./img/Gift.png);
+    
+    
+    background-repeat: no-repeat;
+}
+.photo12 {
+    background: url(./img/logo.png);
+    
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
+.enddd{
+
+    justify-content: space-between;
+}
+.hero {
+    padding-top: 265px;
+    color: white;
+}
+.hero-text {
+   font-size: 29px;
+   text-transform: uppercase;
+}
+.top{
+    margin-top: 60px;
+}
+.hero-desc {
+    padding-top: 44px;
+    width: 530px;
+    font-size: 20px;
+}
+.google-play {
+    background-color: white;
+    border: none;
+    padding: 24px 34px;
+    border-radius: 10px;
+    display: flex;
+    width: 240px;
+    font-size: 19px;
+    margin-right: 15px;
+    
+    text-align: center;
+}
+.learn-btn {
+    background-color: #4894ce;
+    border: none;
+    padding: 24px 34px;
+    border-radius: 10px;
+    display: flex;
+    width: 240px;
+    font-size: 19px;
+    color: white;
+    height: 80px;
+}
+.btn-parrent {
+    display: flex;
+    gap: 29px;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 213px;
+}
+.container3 {
+    margin-top: 400px;
+}
+
+.form-name {
+    padding: 30px;
+    border-radius: 100px;
+    align-items: center;
+    
+}
+.form-namee {
+    padding: 30px;
+    border-radius: 100px;
+    margin-top: 26px;
+  
+    
+}
+.Subscribe {
+    padding: 20px;
+    width: 240px;
+    height: 75px;
+    border-radius: 100px;
+    margin-top: 26px;
+    background-color: #479ee1;
+}
+.form {
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+.section-end {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid beige;
+    padding: 60px;
+}
+.textend {
+    margin-top: 50px;
+    line-height: 30px;
+}
+.container5{
+    color: #7c7c7c;
+}
+.text_2 {
+    color: #b61313;
+}
+.top {
+    color: #b61313;
+}
+.sect {
+    width: 300px;
+}

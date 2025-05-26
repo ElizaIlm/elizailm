@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>SVG Удивленный Смайлик</title>
+    <style>
+        svg {
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+<svg height="300" width="300">
+    <!-- Фон -->
+    <rect width="300" height="300" x="0" y="0" fill="white" />
+    <!-- Голова смайлика -->
+    <circle cx="150" cy="150" r="120" fill="gold" />
+    <!-- Глаза смайлика -->
+    <circle cx="110" cy="100" r="40" fill="white"  stroke-width="5" />
+    <circle cx="180" cy="100" r="40" fill="white"  stroke-width="5" />
+    <!-- Зрачки глаз -->
+    <circle cx="110" cy="100" r="10" fill="black" />
+    <circle cx="180" cy="100" r="10" fill="black" />
+    <!-- Рот смайлика  -->
+    <ellipse cx="145" cy="180" rx="10"  ry="20" fill="red" />
+    <!-- Тень -->
+    <ellipse cx="150" cy="280" rx="90" ry="10" fill="gray" opacity="0.3" />
+</svg>
+</body>
+</html>
